@@ -1,11 +1,11 @@
+# -*- encoding: utf-8 -*-
 =begin rdoc
 
-= SixArm Ruby Gem: ActiveRecord Memoize Class Methods
+= SixArm Ruby Gem » ActiveRecord Memoize Class Methods
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2009-2010 Joel Parker Henderson
-License:: CreativeCommons License, Non-commercial Share Alike
-License:: LGPL, GNU Lesser General Public License
+License:: Your choice of BSD, MIT, LGPL, or CreativeCommons Non-commercial Share Alike
 
 ActiveRecord extenstions: ActiveSupport::Memoizable for class methods.
 
