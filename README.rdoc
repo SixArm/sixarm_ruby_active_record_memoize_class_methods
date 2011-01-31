@@ -1,5 +1,4 @@
-
-= SixArm Ruby Gem: ActiveRecord Memoize Class Methods
+= SixArm.com » Ruby » ActiveRecord Memoize Class Methods
 
 Author:: Joel Parker Henderson, joelparkerhenderson@gmail.com
 Copyright:: Copyright (c) 2009-2010 Joel Parker Henderson
