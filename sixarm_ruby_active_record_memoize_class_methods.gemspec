@@ -17,6 +17,9 @@ Gem::Specification.new do |s|
   lib_files           = ["lib/#{s.name}.rb"]
   test_files          = ["test/#{s.name}_test.rb"]
 
+  s.files             = top_files + lib_files + test_files
+  s.test_files        = test_files
+
   s.add_dependency('activerecord', '>= 2.2.2')
   s.add_dependency('activesupport', '>= 2.2.2')
 
