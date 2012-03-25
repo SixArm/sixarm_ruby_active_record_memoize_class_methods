@@ -1,6 +1,7 @@
 # SixArm.com » Ruby » <br> ActiveRecord Memoize Class Methods
 
-* Docs: <http://sixarm.com/sixarm_ruby_active_record_memoize_class_methods/doc>
+* Doc: <http://sixarm.com/sixarm_ruby_active_record_memoize_class_methods/doc>
+* Gem: <http://rubygems.org/gems/sixarm_ruby_active_record_memoize_class_methods>
 * Repo: <http://github.com/sixarm/sixarm_ruby_active_record_memoize_class_methods>
 * Email: Joel Parker Henderson, <joel@sixarm.com>
 
