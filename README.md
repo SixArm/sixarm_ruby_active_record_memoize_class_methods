@@ -42,7 +42,7 @@ To enable high security for all our gems:
 
 To install with high security:
 
-    gem install sixarm_ruby_active_record_memoize_class_methods --test --trust-policy HighSecurity
+    gem install sixarm_ruby_active_record_memoize_class_methods --trust-policy HighSecurity
 
 
 ## Changes
