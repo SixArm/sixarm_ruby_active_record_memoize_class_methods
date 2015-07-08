@@ -3,26 +3,37 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_active_record_memoize_class_methods"
-  s.summary           = "SixArm.com » Ruby » ActiveRecord extends ActiveSupport::Memoizable for class methods"
-  s.version           = "1.0.6"
+  s.summary           = "SixArm.com » Ruby » ActiveRecord memoize class methods"
+  s.description       = "ActiveRecord extends ActiveSupport::Memoizable for class methods"
+  s.version           = "1.0.8"
+
   s.author            = "SixArm"
   s.email             = "sixarm@sixarm.com"
   s.homepage          = "http://sixarm.com/"
-  s.signing_key       = "/opt/keys/sixarm/sixarm-rsa-4096-x509-20145314-private.pem"
+  s.licenses          = ["BSD", "GPL", "MIT", "PAL", "Various"]
+
+  s.signing_key       = "/opt/keys/sixarm/sixarm-rsa-4096-x509-20150314-private.pem"
   s.cert_chain        = ["/opt/keys/sixarm/sixarm-rsa-4096-x509-20150314-public.pem"]
 
   s.platform          = Gem::Platform::RUBY
   s.require_path      = "lib"
   s.has_rdoc          = true
 
-  top_files           = [".gemtest", "CHANGELOG.txt", "INSTALL.txt", "LICENSE.txt", "Rakefile", "README.md", "VERSION"]
-  lib_files           = ["lib/#{s.name}.rb"]
-  test_files          = ["test/#{s.name}_test.rb"]
+  s.files = [
+    ".gemtest",
+    "CHANGES.md",
+    "LICENSE.md",
+    "Rakefile",
+    "README.md",
+    "VERSION",
+    "lib/sixarm_ruby_active_record_memoize_class_methods.rb",
+  ]
 
-  s.files             = top_files + lib_files + test_files
-  s.test_files        = test_files
+  s.test_files = [
+    "test/sixarm_ruby_active_record_memoize_class_methods_test.rb",
+  ]
 
-  s.add_dependency('activerecord', '>= 2.2.2')
-  s.add_dependency('activesupport', '>= 2.2.2')
+  s.add_dependency('activerecord', '>= 2.2.2', '<999')
+  s.add_dependency('activesupport', '>= 2.2.2', '<999')
 
 end
