@@ -1,4 +1,4 @@
-SixArm.com → Ruby → <br> ActiveRecord Memoize Class Methods
+# SixArm.com → Ruby → <br> ActiveRecord Memoize Class Methods
 
 * Doc: <http://sixarm.com/sixarm_ruby_active_record_memoize_class_methods/doc>
 * Gem: <http://rubygems.org/gems/sixarm_ruby_active_record_memoize_class_methods>
