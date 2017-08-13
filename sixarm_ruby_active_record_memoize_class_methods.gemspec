@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
 
   s.name              = "sixarm_ruby_active_record_memoize_class_methods"
-  s.summary           = "SixArm.com » Ruby » ActiveRecord memoize class methods"
+  s.summary           = "SixArm.com → Ruby → ActiveRecord memoize class methods"
   s.description       = "ActiveRecord extends ActiveSupport::Memoizable for class methods"
   s.version           = "1.0.8"
 
