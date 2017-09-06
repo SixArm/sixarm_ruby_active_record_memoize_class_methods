@@ -4,5 +4,5 @@ require "simplecov"
 SimpleCov.start
 require " sixarm_ruby_active_record_memoize_class_methods"
 
-class Testing < Test::Unit::TestCase
+class Testing < Minitest::Test
 end
